@@ -1,0 +1,108 @@
+body, p, a, fieldset {
+font-family: Montserrat;
+font-size: 14pt;
+}
+
+body {
+	margin: 20px;
+}
+
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.2em;
+}
+
+a:link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+	font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+font-weight: bold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+checkbox {
+	height: 30px;
+
+}
+
+select {
+	height: 30px;
+	font-size: 14pt;
+	font-family: Montserrat;
+}
+
+#date {
+	margin-right: 20px;
+}
+
+input[type=text] {
+	height: 30px;
+	font-size: 14pt;
+	font-family: Montserrat;
+}
+input[type=email] {
+	height: 30px;
+	font-size: 14pt;
+	font-family: Montserrat;
+}
+
+input[type=tel] {
+	height: 30px;
+	font-size: 14pt;
+	font-family: Montserrat;
+}
+input[type=date] {
+	height: 30px;
+	font-size: 14pt;
+	font-family: Montserrat;
+}
+
+input[type=submit] {
+	height: 30px;
+	font-size: 14pt;
+	font-family: Montserrat;
+	margin: 10px;
+	background-color: #01603c;
+	color: white;
+	border-radius: 6px;
+	border-color: #01603c;
+}
+
+fieldset {
+	margin-top: 20px;
+}
+
+.info {
+	font-size: 12pt;
+}
+
+button {
+	background: #01603c;
+	color: white;
+	padding: 10px;
+	font-family: Montserrat;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.edit {
+	background: url('/img/icons8-pencil-30.png') no-repeat;
+	padding: 20px;
+}
